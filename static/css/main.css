@@ -1,0 +1,68 @@
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+font-size: 15vh;
+  }
+
+
+
+#footer{
+    background-color: black;  
+}
+
+#nav-link{
+     background-color: black;  
+     font-size: small;  
+
+}
+
+.nav{
+display: inline;
+margin:0;
+font-size: 15px;
+color:white;
+display:flex; justify-content:center ; flex-direction:row;
+
+}
+
+.navbar{
+font-size: 2ch;
+color: white;
+font-family:cursive;
+background-color: black;
+
+}
+
+.row{
+    font-size: 10ch;
+    color: white;
+    font-family: cursive;
+    border-bottom-style: solid;
+    border-color: rgb(146, 144, 144);
+}
+
+.button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+
+    background-color: white;
+    color: #da671b;  
+    text-align-last: center;
+    vertical-align:center
+  }
+
+
+  .address{
+      color:black
+
+
+  }
+
+  

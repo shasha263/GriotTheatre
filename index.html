@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="static/css/main.css">
 
 </head>
@@ -22,11 +23,11 @@
 
             <div class="nav">
 
-                <p class="nav-link" href="#">Home</p>
-                <p class="nav-link" href="#">Features</p>
-                <p class="nav-link" href="#">Our Actors</p>
-                <p class="nav-link" href="#">Movies</p>
-                <p class="nav-link" href="#">Contact</p>
+                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Our Actors</a>
+                <a class="nav-link" href="#">Movies</a>
+                <a class="nav-link" href="#">Contact</a>
 
             </div>
 
@@ -34,7 +35,8 @@
         </nav>
         <div class="container-fluid">
             <div id="header" class="row justify-content-center">
-                <img src="static/images/theater-image-background.png" class="img-fluid" alt="Responsive image" style="width:100%;">
+                <img src="static/images/theater-image-background.png" class="img-fluid" alt="Responsive image"
+                    style="width:100%;">
                 <div class="centered">Featured Shows</div>
 
             </div>
@@ -44,19 +46,18 @@
             <div class="col-sm-1" style="background-color:white;">
             </div>
 
-            <div class="col"style="color:black";border-style: solid>
+            <div class="col" style="color:black" ;>
                 <h4>April 2020</h4>
-                           
 
-          </div>
+            </div>
 
         </div>
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-1" style="background-color:white;">
+                <div class="col-sm-1" style="background-color:white; ">
                 </div>
-                <div class="col-sm-3">
+                <div id="rowborder" class="col-sm-3">
                     <p><img src="static/images/a-raisin-in-the-sun-theater-1.png" height="150" width="150">
                     </p>
                 </div>
@@ -68,7 +69,9 @@
                 </div>
                 <div class="button col-sm-3">
                     <p>
-                        <input type="button" value="READ MORE">
+                        <button
+                            onclick="document.location='https://classroom.google.com/c/NDA1MDI3NTE4NjMw/a/NDM1MzkwMzYxMjI4/details'">READ
+                            MORE</button>
                     </p>
                 </div>
                 <div class="empty col-sm-1" style="background-color:white;">
@@ -94,7 +97,10 @@
                 </div>
                 <div class="button col-sm-3">
                     <p>
-                        <input type="button" value="READ MORE">
+                        <button
+                            onclick="document.location='https://classroom.google.com/c/NDA1MDI3NTE4NjMw/a/NDM1MzkwMzYxMjI4/details'">READ
+                            MORE</button>
+
                     </p>
                 </div>
                 <div class="empty col-sm-1" style="background-color:white;">
@@ -118,7 +124,9 @@
                 </div>
                 <div class="button col-sm-3">
                     <p>
-                        <input type="button" value="READ MORE">
+                        <button
+                            onclick="document.location='https://classroom.google.com/c/NDA1MDI3NTE4NjMw/a/NDM1MzkwMzYxMjI4/details'">READ
+                            MORE</button>
                     </p>
                 </div>
                 <div class="col-sm-1" style="background-color:white;">
@@ -142,7 +150,9 @@
                 </div>
                 <div class="button col-sm-3">
                     <p>
-                        <input type="button" value="READ MORE">
+                        <button
+                            onclick="document.location='https://classroom.google.com/c/NDA1MDI3NTE4NjMw/a/NDM1MzkwMzYxMjI4/details'">READ
+                            MORE</button>
                     </p>
                 </div>
                 <div class="col-sm-1" style="background-color:white;">
@@ -151,59 +161,62 @@
         </div>
 
         <div id="footer">
-            <div class="container-fluid">
+            <div class="row">
+                <div id="map"class="col-sm-3" >
+                    <img src="static/images/mapimage.jfif">
+
+                </div>
+            <div class="col-sm-5">
+<h1>Info</h1>
                 <div class="row">
-
-                    <div class="col-sm-3">
-                        <img src="static/images/mapimage.jfif" height="200" width="250">
-
+                    <div id="icons" class="col-sm-3">
+                        <img src="static/images/Capture.JPG" >
+                    
                     </div>
-                    <div class="col-sm-3">
-                        <ul>
-                            <h2>Info</h2>
-                            <h3></h3>
-                            <h5>address</h5>
-                            <h5>email address</h5>
-                            <h5>contact number</h5>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <p>
-                        <ul>
-                            <h2>Shows</h2>
-                            <h3></h3>
-                            <h5>Fall Series: RE/TURN</h5>
-                            <h5>A Thanksgiving Messiah</h5>
-                            <h5>Perfect Christmas</h5>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <ul>
-                            <h2>Social</h2>
-                            <h3></h3>
-                            <h5>facebook</h5>
-                            <h5>twitter</h5>
-                            <h5>instagram</h5>
-                        </ul>
+                    <div class="col-sm-9">
+                        <h6>Chicago,IL 60611 United States</h6>
+                        <h6>example@example.com</h6>
+                        <h6>Call Us: 708-555-4488</h6>
                     </div>
                 </div>
             </div>
+            <div class="col-sm-2">
+
+                <h1>Shows</h1>
+                <h3></h3>
+                <h6>The Piano Lesson</h6>
+                <h6>A Raisin In The Sun</h6>
+                <h6>FAME</h6>
+                <h6>The Color Purple</h6>
+
+            </div>
+            <div class="col-sm-2">
+                <h1>Social</h1>
+                <h3></h3>
+                <h6>Facebook</h6>
+                <h6>Twitter</h6>
+                <h6>Youtube</h6>
+                <h6>Instagram</h6>
+
+            </div>
+        </div>
+    </div>
 
 
 
 
 
-            <!-- Optional JavaScript -->
-            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-                crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-                crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 
 

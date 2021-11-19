@@ -7,16 +7,29 @@
 font-size: 15vh;
   }
 
+  #map{
+    position: left;
+    display:inline; justify-content:left ; flex-direction:row
 
+  }
+*{
+
+}
 
 #footer{
     background-color: black;  
+    padding-top: 5mm;
+    align-items: center;
+    display:flex; justify-content:center ; flex-direction:row
+
 }
+
+
 
 #nav-link{
      background-color: black;  
      font-size: small;  
-
+     color: white;
 }
 
 .nav{
@@ -33,17 +46,26 @@ font-size: 2ch;
 color: white;
 font-family:cursive;
 background-color: black;
-
 }
 
+.col{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: rgb(73, 72, 72);
+
+}
 .row{
     font-size: 10ch;
     color: white;
     font-family: cursive;
-    border-bottom-style: solid;
     border-color: rgb(146, 144, 144);
-}
+    padding-bottom: 1ch;
 
+}
+*{
+    font-family: Roboto,sans-serif;
+}
 .button {
     border: none;
     padding: 15px 32px;
@@ -64,5 +86,3 @@ background-color: black;
 
 
   }
-
-  

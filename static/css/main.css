@@ -4,7 +4,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-font-size: 15vh;
+font-size: 14vh;
   }
 
   #map{
@@ -12,7 +12,8 @@ font-size: 15vh;
     display:inline; justify-content:left ; flex-direction:row
 
   }
-*{
+#btn{
+    background-color: rgb(226, 143, 10);
 
 }
 
@@ -86,3 +87,76 @@ background-color: black;
 
 
   }
+
+
+
+  .container {
+    display: grid;
+    grid-template-columns: 1.3fr 0.5fr 1fr 1fr 0.8fr;
+    grid-template-rows: 0.4fr 0.3fr 0.3fr 0.4fr 0.7fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Map Info Info Shows Social"
+      "Map icon-1 Address S1 Social-1"
+      "Map icon2 email S2 Social-2"
+      "Map icon-3 cell-number s3 Social-3"
+      ". . . s4 Social-4";
+      color: white;
+      background-color: black;
+  }
+  
+  .Social { grid-area: Social; 
+}
+  
+  .Social-1 { grid-area: Social-1; }
+  
+  .Social-2 { grid-area: Social-2; }
+  
+  .Social-3 { grid-area: Social-3; }
+  
+  .Social-4 { grid-area: Social-4; }
+  
+  .Shows { grid-area: Shows; }
+  
+  .S1 { grid-area: S1; }
+  
+  .S2 { grid-area: S2; }
+  
+  .s3 { grid-area: s3; }
+  
+  .s4 { grid-area: s4; }
+  
+  .Info { grid-area: Info; }
+  
+  .Address { grid-area: Address; }
+  
+  .email { grid-area: email; }
+  
+  .cell-number { grid-area: cell-number; }
+  
+  .icon-1 { grid-area: icon-1;
+
+background-color: black;
+margin: none;
+padding: none;
+display: block
+}
+  
+  .icon2 { grid-area: icon2; 
+
+    background-color: black;
+    margin: none;
+    padding: none;
+display: block;}
+  
+  .icon-3 { grid-area: icon-3; 
+    background-color: black;
+    margin: none;
+    padding: none;
+    display: block}
+  
+  .Map { grid-area: Map; }
+  
